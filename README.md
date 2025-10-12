@@ -1,3 +1,4 @@
+```bash
 sudo apt install apache2 -y
 sudo service apache2 status
 cd /etc/apache2/sites-available
@@ -81,3 +82,4 @@ sudo chown -R www-data:www-data elogbook/
 sudo chmod -R 755 elogbook/
 sudo a2enmod rewrite
 sudo service apache2 restart
+```

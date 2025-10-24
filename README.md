@@ -1,3 +1,4 @@
+```bash
 sudo apt install apache2 -y
 sudo service apache2 status
 cd /etc/apache2/sites-available
@@ -75,9 +76,10 @@ find <Directory /var/www/>
         Options -Indexes
         AllowOverride All
         Require all granted
-</Directory>" this should be the content of this
+</Directory>" # this should be the content of this
 cd /var/www
 sudo chown -R www-data:www-data elogbook/
 sudo chmod -R 755 elogbook/
 sudo a2enmod rewrite
 sudo service apache2 restart
+```

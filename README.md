@@ -82,4 +82,6 @@ sudo chown -R www-data:www-data elogbook/
 sudo chmod -R 755 elogbook/
 sudo a2enmod rewrite
 sudo service apache2 restart
+
+notes from Zuchini Nunez
 ```

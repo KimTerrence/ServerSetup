@@ -83,3 +83,6 @@ sudo chmod -R 755 elogbook/
 sudo a2enmod rewrite
 sudo service apache2 restart
 ```
+
+
+Author: Chini
